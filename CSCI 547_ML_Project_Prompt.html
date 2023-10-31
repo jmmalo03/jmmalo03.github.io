@@ -26,11 +26,11 @@
 <div id="header">
 
   <a href="index.html">
-    <h1>CSCI 491: Introduction to Deep Learning</h1>
+    <h1>CSCI 547: Introduction to Machine Learning</h1>
   </a>
   <div class='text-center'>
     <h4>University of Montana</h4>
-    <h4>Spring 2023</h4>
+    <h4>Fall 2023</h4>
   </div>
 
   <div style="clear:both;"></div>
@@ -41,12 +41,9 @@
   
   <h1>Final Project</h1>
   <h2>Summary and Goals</h2>
-    <p>Deep learning tools are not an end in themselves, but yield value when making predictions, quantifying and describing phenomena in the world around us, and in all these ways and more helping us to make decisions that would otherwise be difficult or impossible. For this final project, <b>you will work in teams of 1 or 2 students</b> to (1) identify a problem to solve or a question to answer, (2) apply deep learning techniques to conduct experiments to address the issues identified in (1), (3) rigorously evaluate the performance of your approach, and (4) clearly communicate your findings to a wide audience. <b>The deliverables for this project</b> are:</p>
+    <p>Machine Learning tools are not an end in themselves, but yield value when making predictions, quantifying and describing phenomena in the world around us, and in all these ways and more helping us to make decisions that would otherwise be difficult or impossible. For this final project, <b>you will work in teams of 1 or 2 students</b> to (1) identify a problem to solve or a question to answer, (2) apply deep learning techniques to conduct experiments to address the issues identified in (1), (3) rigorously evaluate the performance of your approach, and (4) clearly communicate your findings to a wide audience. <b>The deliverables for this project</b> are:</p>
     <ol>
-      <li><a class="toc" href="#proposal">Project proposal</a></li>
       <li><a class="toc" href="#finalreport">Final written report</a> and a draft report prior to final submission</li>
-      <li><a class="toc" href="#presentation">Presentation</a> during our final week of class (tentatively, May 3rd and May 5th).</li>
-      <li><a class="toc" href="#github">Github repository</a> for your project</li>
     </ol>
   
     Other topics described in this document related to the project include:
@@ -87,19 +84,6 @@
   </div>
 </div>
 
-<div id="proposal" class="container sec">
-  <h2>Proposal</h2>
-
-  <p>Your team will submit a short project proposal. You will receive written feedback that should be used to guide your project development and execution. There are no length requirements. Every proposal should have the title of the project and the list of team members at the top of the first page.</p>
-
-  <p>You can find the <a class="emphasis" href="https://docs.google.com/document/d/1eb7f-wGCmRUSPhDzCAzZXPr5uvufPcTwFkinCVQK250/edit?usp=sharing">project proposal template and instructions here</a>. We recommend you think about and discuss the different points mentioned in the template prior to submission.</p>
-  
-  <p>Additionally, content from your proposal may be reused in your draft/final report and so you're encouraged to invest in it with that in mind.</p>
-
-  <p>If you are looking for ideas about datasets, etc., please see the <a href="#ideas">Ideas section</a> below. Please stop by office hours if you would like to discuss specific project ideas or for any other help in selecting your project idea.</p>
-
-</div>
-
 <div id="finalreport" class="container sec">
   <h2>Final Report</h2>
 
@@ -108,87 +92,33 @@
   <p>Please find the <a class="emphasis" href="https://docs.google.com/document/d/1dp1LquAQMb09kaeuLBKMSmfwVxX5Upb1ps0mKjPDMOc/edit?usp=sharing">instructions and template for the report here</a>.</p>
 
 </div>
-<div id="presentation" class="container sec">
-  <h2>Presentation</h2>
 
-  <p>You will also prepare a 4-to-6 minute presentation summarizing your project. This presentation should be visually compelling and should not miss the “forest for the trees” – don’t get lost in technical details. Imagine your aunt and uncle watching this presentation – would they know what is going on? Would they find it approachable and engaging? For inspiration for what makes a good explanatory presentation, watch videos from the following series:</p>
-
-  <ul>
-    <li><a href="https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg">Two Minute Papers</a> by Károly Zsolnai-Fehér. Concise 1-4 minute summaries of cutting edge research papers.</li>
-    <li><a href="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw">3Blue1Brown</a> by Grant Sanderson. Mathematical concepts conveyed clearly, intuitively, and visually.</li>
-    <li><a href="https://www.youtube.com/channel/UConVfxXodg78Tzh5nNu85Ew">Welch Labs</a> by Stephen Welch. Series on machine learning, neural networks, and imaginary numbers.</li>
-  </ul>
-
-  <p>Once you're working on preparing your presentation, ask your friends (especially those who may not be as technically inclined) for feedback. Do they think it was engaging/easy to follow? Ask them their takeaways: did they get the message you were trying to communicate? Address their feedback to help you ensure the quality of your presentation. You're encouraged to use the audio-visual medium to the fullest to clearly present your project.  Your presentation will be graded by myself (the professor) as well as your peers (other students), using the presentation rubric available on Moodle (under "Project")</p>
-</div>
-
-<div id="presentation" class="container sec">
-  <h2>Presentation Quality</h2>
-  <p>The grade for your presentation will be a weighted average of the instructor's score (with weight of 66%) and the average score from students (with a weight of 34%).  Everyone (student and instructors) will use a scoring rubric to evaluate your presentation, <b>which is available on Moodle (under "Project")</b>. Note that this rubric does not require that you present experimental results - I understand those may not be finished by the time of your presentation </p>
-</div>
-
-<div id="peerevaluation" class="container sec">
-<h2>Bonus: Peer Evaluation of Presentations</h2>
-  <p> I will grant 0.5 bonus points (equivalent to 2% of a 100% score) for attending each of the last two regular sessions of class (so total 4% bonus) on May 3rd and May 5th, and completing scoring rubrics for all of your classmates' presentations, up to to a maximum of 100% score on the Project.</p>
-</div>
-
-<div id="github" class="container sec">
-  <h2>Github Repository</h2>
-  <p>Your github respository should (a) contain a descriptive README.md file that explains what the repo is for, and how to use the code to reproduce your work (including how to set it up to run), (b) be well commented throughout all files, (c) list all dependencies in a requirements.txt file, (d) inform the user how to get the data and includes all preprocessing code, and (e) actually runs (i.e. we can successfully test it) and does what it says</p>
-
-  <p>Also include a copy of your final report from the README.md file.</p>
-
-</div>
-
-
+  
 <div id="evaluation" class="container sec">
-  <h2>Submission, Evaluation, & Grading</h2>
+  <h2>Evaluation of Final Report</h2>
 
-  <p>You should submit each deliverable from your project through Moodle. You will submit a link to each team deliverable, except for one. These deliverables should be submitted AS A TEAM not through individual submissions. The project proposal, and draft final report should be submitted through Moodle as links to Google Docs (so that I can attach easy-to-repond-to comments) using the templates provided. The github repo should also both be submitted as links via Moodle. The final project report, however, should be submitted as a PDF document in Moodle.</p>
+  <p>You should submit your final report as a pdf on Moodle, which will be graded using the following criteria </p>
 
   <p>The grading for this project will be assigned as follows:</p>
   <table class="table table-hover">
     <thead>
       <tr>
         <th scope="col">Component</th>
-        <th scope="col">Evaluation / Feedback Plan</th>
+        <th scope="col">Points </th>
+        <th scope="col">Grading Criteria</th>
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <th scope="row">Presentation</th>
-        <td>5 points, graded</td>
+      <th scope="row">Completeness</th>
+        <td>50 points</td>
+        <td>Are all requested components/sections of the report present, formatted well, and written clearly. The ideas described in the report are not considered here. </td>
       </tr>
-      <tr>
-        <th scope="row">Final Report</th>
-        <td>20 points, graded</td>
-      </tr>
-      <tr>
-        <th scope="row">Team Proposal</th>
-        <td>Written feedback will be provided to help guide your project design.<sup>**</sup></td>
-      </tr>
-      <tr>
-        <th scope="row">Draft Final Report</th>
-        <td>Written feedback will be provided to help guide your final report writing.<sup>**</sup></td>
-        </td>
-      </tr>
-      <tr>
-        <th scope="row">Github Repository</th>
-        <td>Required for project submission to be considered complete<sup>**</sup></td>
-      </tr>
-      <tr>
-        <th scope="row">Presentation Evaluations</th>
-        <td>0.5 bonus points for attendance and completion of presentation evaluations on May 3rd and May 5th, respectively, up to a maximum score of 25 on the assignment. </td>
-      </tr>
-      <tr>
-        <th scope="row">Total</th>
-        <td><b>25 points</b></td>
-        <td></td>
+    <th scope="row">Correctness</th>
+        <td>50 points</td>
+        <td>Is the content of the report reasonable and appropriate?  For example, were the papers chosen for the literature review appropriate? Was the experimental design appropriate to achieve the goals of the work? Were the performance metrics used appropriate for the goals?  Were several ML models compared? </td>
       </tr>
     </tbody>
   </table>
-
-  <p><sup>**</sup> No points will be directly assigned. One point will be deducted from your overall final project score for each day late; up to 2 points may be deducted from the overall project score if the deliverable is unsatisfactory (if it does not represent a serious effort towards the deliverable)</p>
 </div>
 
 
